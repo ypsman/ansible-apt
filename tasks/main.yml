@@ -4,10 +4,7 @@
   apt:
     update_cache: yes
 
-- name: running apt-get dist-upgrade
+- name: running apt-get dist-upgrade and remove Old Packages
   apt:
     upgrade: dist
-
-- name: running apt autoremove
-  apt:
     autoremove: yes
