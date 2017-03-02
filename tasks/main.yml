@@ -1,0 +1,13 @@
+---
+# tasks file for apt
+- name: update Repositories
+  apt:
+    update_cache: yes
+
+- name: running apt-get dist-upgrade
+  apt:
+    upgrade: dist
+
+- name: running apt autoremove
+  apt:
+    autoremove: yes

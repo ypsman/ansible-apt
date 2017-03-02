@@ -1,0 +1,18 @@
+galaxy_info:
+  author: ypsman
+  description: running apt update, dist-upgrade and autoremove
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+    - stretch
+  galaxy_tags:
+  - apt
+  - update
+  - upgrade
+  - dist-upgrade
+  - autoremove
+  - debian
+dependencies: []
